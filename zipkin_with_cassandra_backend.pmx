@@ -1,0 +1,27 @@
+---
+name: Zipkin with Cassandra backend
+description: A complete environment to collect and display Zipkin traces. For more
+  information and context have a look at this blog entry http://deeprecursion.com/posts/2014/05/distributed-tracing-with-zipkin/
+keywords: zipkin cassandra tracing
+type: Rails
+documentation: |-
+  tbd
+
+  For general context have a look at http://deeprecursion.com/posts/2014/05/distributed-tracing-with-zipkin/
+images:
+- name: lispmeister_zipkin-cassandra_latest
+  source: lispmeister/zipkin-cassandra:latest
+  category: Database
+  type: Default
+- name: lispmeister_zipkin-query
+  source: lispmeister/zipkin-query:latest
+  category: Database
+  type: Default
+- name: lispmeister_zipkin-web
+  source: lispmeister/zipkin-web:latest
+  category: Web
+  type: Default
+- name: lispmeister_zipkin-collector
+  source: lispmeister/zipkin-collector:latest
+  category: API
+  type: Default
